@@ -4,7 +4,7 @@
   <h3>Installation</h3>
   <p>To include the NolyDB SDK in your PHP project, follow these steps:</p>
   <ol>
-    <li>Clone or download the SDK from the <a href="https://github.com/ojiiis/nolydb">NolyDB SDK GitHub repository</a>.</li>
+    <li>Clone or download the SDK from the <a href="https://github.com/ojiiis/nolydbPHP-SDK">NolyDB SDK GitHub repository</a>.</li>
     <li>Place the <code>nolydbSDK.php</code> file in your project directory.</li>
     <li>Include the SDK in your PHP script using the <code>require</code> or <code>require_once</code> statement.</li>
   </ol>
