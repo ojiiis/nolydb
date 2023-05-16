@@ -103,3 +103,14 @@ Remember to replace 'your_username', 'your_token', 'your_database', and 'your_ta
 </p><p>
 This example provides a starting point for using the NolyDB SDK and interacting with NolyDB databases in your PHP applicatio
   </p>
+<h2>Contributing</h2>
+
+<p>Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the <a href="https://github.com/ojiiis">GitHub repository</a>.</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+<hr>
+
+<p>Feel free to customize the README according to your specific project details and add any additional sections that might be relevant.</p>
