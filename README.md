@@ -36,7 +36,7 @@
   <h4>selectTABLE($db, $table, $option)</h4>
   <p>Select and retrieve data from a table in the specified database based on the provided query options.</p>
   
-  <h4>updateTABLE($db, $table, $option)</h4>
+  <h4>updateTABLE($db, $table,$set, $option)</h4>
   <p>Update data in a table in the specified database based on the provided query options.</p>
   
   <!-- Add more sections for each method and their descriptions -->
