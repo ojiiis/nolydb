@@ -101,7 +101,7 @@ The retrieved data is outputted using HTML tags to structure the information. Ea
 </p><p>
 Remember to replace 'your_username', 'your_token', 'your_database', and 'your_table' with your actual NolyDB username, token, database name, and table name.
 </p><p>
-This example provides a starting point for using the NolyDB SDK and interacting with NolyDB databases in your PHP applicatio
+This example provides a starting point for using the NolyDB SDK and interacting with NolyDB databases in your PHP application
   </p>
 <h2>Contributing</h2>
 
