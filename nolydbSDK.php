@@ -136,11 +136,12 @@ private function sendRequest($url, $method = 'GET', $params = [], $headers = [])
     return $response;
 }
 
-    public function updateTABLE($db, $table,$option = []) {
+    public function updateTABLE($db, $table,$set = [], $option = []) {
     $url = $this->baseURL . '/'.$this->username.'/'.$db.'/update';
     $params = [
         'table' => $table,
-        'option'=>$option
+        'option'=>$option,
+        'set'=>$set
     ];
 
     $response = $this->sendRequest($url, 'POST', $params);
