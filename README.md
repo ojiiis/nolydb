@@ -67,18 +67,18 @@ $ndb->addToTABLE('your_database', 'your_table', $data);
 
 // Select data from the table
 $options = [
-    'type' => 'where',
-    'data' => [
-        'column1' => 123
-    ]
+    'where'=>[['column1','123']],
+    'column' => [
+    'column1'
+    ],
+    'take'=>1
 ];
-
 
 $response = $ndb->selectTABLE('your_database', 'your_table', $options);
 
 // Display the retrieved data
 $data = json_decode($response, true);
-if ($data['status'] === 1) {
+if (is_array($data) && !array_key_exists('status',$data)) {
     foreach ($data['data'] as $row) {
         echo "<p>Column 1: " . $row['column1'] . "</p>";
         echo "<p>Column 2: " . $row['column2'] . "</p>";
@@ -88,7 +88,7 @@ if ($data['status'] === 1) {
     echo "<p>An error occurred: " . implode(", ", $data['er']) . "</p>";
 }
 
-
+// returns [{"column1":"123"}]
 </code>
 </pre>
   
