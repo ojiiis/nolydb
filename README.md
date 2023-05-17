@@ -15,8 +15,6 @@
   
   <h3>Methods</h3>
   
-  <h4>createAccount($username, $email, $password)</h4>
-  <p>Create a new user account in NolyDB with the specified username, email, and password.</p>
   
   <h4>makeDB($database)</h4>
   <p>Create a new database with the specified name in your NolyDB account.</p>
