@@ -48,18 +48,6 @@ private function sendRequest($url, $method = 'GET', $params = [], $headers = [])
 }
 
     
-    public function createAccount($username, $email, $password) {
-    $url = $this->baseURL . '/create_account';
-    $params = [
-        'username' => $username,
-        'email' => $email,
-        'password' => $password
-    ];
-
-    $response = $this->sendRequest($url, 'POST', $params);
-
-    return $response;
-}
 
 
     public function makeDB($database) {
