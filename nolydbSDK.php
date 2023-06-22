@@ -171,6 +171,28 @@ private function sendRequest($url, $method = 'GET', $params = [], $headers = [])
     return $response;
 }
 
+     public function popFromSCHEMA($db, $table) {
+    $url = $this->baseURL . '/'.$this->username.'/'.$db.'/remove_from_schema';
+    $params = [
+        'table' => $table
+    ];
+
+    $response = $this->sendRequest($url, 'POST', $params);
+
+    return $response;
+}
+
+         public function addToSCHEMA($db, $table) {
+    $url = $this->baseURL . '/'.$this->username.'/'.$db.'/add_to_schema';
+    $params = [
+        'table' => $table
+    ];
+
+    $response = $this->sendRequest($url, 'POST', $params);
+
+    return $response;
+}
+
 }
 
 
